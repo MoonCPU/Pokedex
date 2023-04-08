@@ -22,7 +22,7 @@ const About = () => {
             transition="transition"
         >
             <motion.div>
-                <div className="mt-[5%]">
+                <div className="mt-4">
                     <div>
                         <h1 className="text-2xl">Made by</h1>
                         <h1 className="text-3xl flex items-center justify-center">
@@ -53,7 +53,7 @@ const About = () => {
                         <p className="indent-4 mt-2">Anyway, I'm satisfied with the end result, even if I had to cut on some content I was originally planning for this website. I learned a lot about handling APIs and this knowledge will certainly be useful in a very near future.</p>
                         <p className="indent-4 mt-2">Onwards to the next project! I'll see you there!</p>
                     </div>
-                    <p className="mx-auto mt-4 text-[5px]">PS. Charizard is overrated. Blastoise or Venusaur is much cooler.</p>
+                    <p className="mx-auto mt-4 text-[5px]">PS. Charizard is overrated. Blastoise or Venusaur are much cooler.</p>
                 </div>
             </motion.div> 
 
