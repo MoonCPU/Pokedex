@@ -22,7 +22,7 @@ const About = () => {
             transition="transition"
         >
             <motion.div>
-                <div className="mt-[10%]">
+                <div className="mt-[5%]">
                     <div>
                         <h1 className="text-2xl">Made by</h1>
                         <h1 className="text-3xl flex items-center justify-center">
