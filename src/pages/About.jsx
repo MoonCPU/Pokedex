@@ -22,7 +22,7 @@ const About = () => {
             exit="exit"
             transition="transition"
         >
-            <div className="mt-4">
+            <div className="mt-12">
                 <div>
                     <h1 className="text-2xl">Made by</h1>
                     <h1 className="text-3xl flex items-center justify-center">
