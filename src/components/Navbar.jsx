@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="mx-10">
                     <ul className="flex flex-row text-2xl gap-5">
                         <li className="sm:mx-5"><Link to="/">Home</Link></li>
-                        <li className="sm:mx-5"><Link to="/about">About</Link></li>
+                        <li><Link to="/about">About</Link></li>
                     </ul>
                 </div>
             </div>
