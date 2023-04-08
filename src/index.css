@@ -9,6 +9,7 @@
 
 body {
   text-align: center;
+  background-color: #E5E5E5;
 }
 
 .button {
@@ -17,4 +18,24 @@ body {
 
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
+}
+
+@font-face {
+  font-family: 'Pokemon-Solid';
+  src: url('./fonts/Pokemon-Solid.ttf') format('truetype');
+}
+
+
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#mymove {
+  animation: mymove 1s forwards;
+  transform-origin: center center;
 }
